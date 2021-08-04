@@ -9,13 +9,9 @@ function fish_greeting
         echo (set_color blue; date +"%a %b %d, %r"; set_color normal);
 end;
 
-set_theme_gruvbox
-set theme_color_scheme gruvbox
+starship init fish | source
 
-# bobthefish prompt customization
-set -g theme_display_date no
-set -g theme_powerline_fonts yes
-set -g theme_nerd_fonts yes
+set_theme_gruvbox
 
 # Add cargo bins to fish's path
 fish_add_path -g [~/.cargo/bin/]
@@ -25,6 +21,7 @@ abbr -a -g g git
 abbr -a -g ga git add
 abbr -a -g gb git branch
 abbr -a -g gc git commit
+abbr -a -g gd git diff
 abbr -a -g gch git checkout
 abbr -a -g gl git log
 abbr -a -g gp git push
