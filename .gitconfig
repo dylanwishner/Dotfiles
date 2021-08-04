@@ -12,3 +12,11 @@
 [core]
 	excludesFile = ~/.gitignore
 	editor = nvim
+[help]
+	autocorrect = 1
+[merge]
+	tool = nvimdiff
+[mergetool]
+	prompt = false
+[difftool]
+	prompt = false
