@@ -34,3 +34,6 @@ abbr -a -g cad cargo doc
 abbr -a -g cado cargo doc --open
 abbr -a -g cr cargo run
 abbr -a -g ct cargo test 
+
+# Misc abbreviations
+abbr -a -g ls exa
