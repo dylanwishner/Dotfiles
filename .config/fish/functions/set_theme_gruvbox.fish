@@ -79,7 +79,7 @@ function set_theme_gruvbox -d "Gruvbox dark, hard"
     if test -n "$ITERM_SESSION_ID"
       # iTerm2 proprietary escape codes
       put_template_custom Pg d5c4a1 # foreground
-      put_template_custom Ph 282828 # background
+      put_template_custom Ph 1d2021 # background
       put_template_custom Pi d5c4a1 # bold color
       put_template_custom Pj 504945 # selection color
       put_template_custom Pk d5c4a1 # selected text color
