@@ -37,3 +37,4 @@ abbr -a -g ct cargo test
 
 # Misc abbreviations
 abbr -a -g ls exa
+abbr -a -g envim nvim ~/.config/nvim/init.vim
