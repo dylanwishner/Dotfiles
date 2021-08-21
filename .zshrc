@@ -30,4 +30,10 @@ fi
 # Set prompt
 eval "$(starship init zsh)"
 
+# Install zsh-syntax-highlighting if necessary
+if [[ ! -d /usr/local/share/zsh-syntax-highlighting/ ]]; then
+  echo "Installing zsh-syntax-highlighting..."
+  git clone --quiet https://github.com/zsh-users/zsh-syntax-highlighting.git /usr/local/share/zsh-syntax-highlighting/
+fi
+
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
