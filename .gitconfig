@@ -20,3 +20,13 @@
 	prompt = false
 [difftool]
 	prompt = false
+[alias]
+	a = add
+	b = branch
+	ch = checkout
+	cb = checkout -b
+	c = commit
+	d = diff
+	l = log
+	p = push
+	s = status
