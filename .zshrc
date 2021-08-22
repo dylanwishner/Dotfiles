@@ -7,6 +7,8 @@
 # Add cargo to $PATH
 source $HOME/.cargo/env
 
+[ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
+
 # Cargo aliases
 alias cb="cargo build"
 alias cr="cargo run"
