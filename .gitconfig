@@ -27,6 +27,6 @@
 	cb = checkout -b
 	c = commit
 	d = diff
-	l = log
+	l = log --graph
 	p = push
 	s = status
