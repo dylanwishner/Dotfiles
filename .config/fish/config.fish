@@ -13,9 +13,6 @@ starship init fish | source
 
 set_theme_gruvbox
 
-# Add cargo bins to fish's path
-fish_add_path -g [~/.cargo/bin/]
-
 # Cargo abbreviations
 abbr -a -g ca cargo
 abbr -a -g cb cargo build
